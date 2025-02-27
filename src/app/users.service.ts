@@ -21,9 +21,3 @@ export class UsersService {
     return this.http.put<any>(`${this.apiUrl}/${id}`, data);
   }
   }
-
-
-
- 
- 
- 
